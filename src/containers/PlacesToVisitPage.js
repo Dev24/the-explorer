@@ -12,7 +12,7 @@ class PlacesToVisitPage extends Component{
     render(){
         return (
         <div className="page-placestovisit">
-            
+            Places to Visit Page - loading places
         </div>);
 
     }
