@@ -18,7 +18,7 @@ function DefaultFooter() {
                   href="https://www.creative-tim.com?ref=nukr-default-footer"
                   target="_blank"
                 >
-                  Creative Tim
+                  THE EXPLORERS
                 </a>
               </li>
               <li>
@@ -29,25 +29,17 @@ function DefaultFooter() {
                   About Us
                 </a>
               </li>
-              <li>
-                <a
-                  href="http://blog.creative-tim.com?ref=nukr-default-footer"
-                  target="_blank"
-                >
-                  Blog
-                </a>
-              </li>
             </ul>
           </nav>
           <div className="copyright" id="copyright">
-            © {new Date().getFullYear()}, Designed by{" "}
+            © {new Date().getFullYear()}{" "}
             <a
-              href="https://www.invisionapp.com?ref=nukr-default-footer"
-              target="_blank"
+            href="https://www.theexplorers.com"
+            target="_blank"
             >
-              Invision
+              THE EXPLORERS
             </a>
-            . Coded by{" "}
+            . Credit to{" "}
             <a
               href="https://www.creative-tim.com?ref=nukr-default-footer"
               target="_blank"

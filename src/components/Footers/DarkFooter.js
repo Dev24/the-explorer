@@ -12,39 +12,31 @@ function DarkFooter() {
           <ul>
             <li>
               <a
-                href="https://www.creative-tim.com?ref=nukr-dark-footer"
+                href="https://www.theexplorers.com"
                 target="_blank"
               >
-                Creative Tim
+                THE EXPLORERS
               </a>
             </li>
             <li>
               <a
-                href="http://presentation.creative-tim.com?ref=nukr-dark-footer"
+                href="http://www.theexplorers.com/about"
                 target="_blank"
               >
                 About Us
               </a>
             </li>
-            <li>
-              <a
-                href="http://blog.creative-tim.com?ref=nukr-dark-footer"
-                target="_blank"
-              >
-                Blog
-              </a>
-            </li>
           </ul>
         </nav>
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" "}
+          © {new Date().getFullYear()}{" "}
           <a
-            href="https://www.invisionapp.com?ref=nukr-dark-footer"
+            href="https://www.theexplorers.com"
             target="_blank"
           >
-            Invision
+            THE EXPLORERS
           </a>
-          . Coded by{" "}
+          . Credit to {" "}
           <a
             href="https://www.creative-tim.com?ref=nukr-dark-footer"
             target="_blank"

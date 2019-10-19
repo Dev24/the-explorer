@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -108,13 +108,7 @@ function LoginPage() {
                     </Button>
                     <div className="pull-left">
                       <h6>
-                        <a
-                          className="link"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          Create Account
-                        </a>
+                        <Link to="/signup" className="link">Create Account</Link>
                       </h6>
                     </div>
                     <div className="pull-right">

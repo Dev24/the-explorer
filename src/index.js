@@ -31,11 +31,15 @@ import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 
+import SignUp from "views/index-sections/SignUp.js";
+import PlacesToVisitPage from "containers/PlacesToVisitPage.js";
+
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Switch>
         <Route path="/index" render={props => <LoginPage {...props} />} />
+        <Route path="/signup" render={props => <SignUp {...props} />} />
         <Route path="/index2" render={props => <Index {...props} />} />
         <Route
           path="/nucleo-icons"
@@ -48,6 +52,10 @@ ReactDOM.render(
         <Route
           path="/profile-page"
           render={props => <ProfilePage {...props} />}
+        />
+        <Route
+          path="/visit-places"
+          render={props => <PlacesToVisitPage {...props} />}
         />
         <Route path="/login-page" render={props => <LoginPage {...props} />} />
         <Redirect to="/index" />
