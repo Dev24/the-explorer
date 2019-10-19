@@ -1,9 +1,93 @@
 {
     "cityguides": {
         "v2": {
-            "cities": {
-                "name": "Hello World"
-            }
+            "cities": [
+                {
+                    "card_network": "DCI",
+                    "name": "Holiday Inn Express - Clarke Quay",
+                    "phone": "+65 6589 8000",
+                    "address1": "2 Magazine Road",
+                    "zip_code": "59573",
+                    "city": "Singapore",
+                    "mcc": "hotels",
+                    "website": "https://m.ihg.com/hotels/holidayinn/us/en/home",
+                    "privileges_url": "",
+                    "privileges_ids": [],
+                    "point": [
+                        103.8420054,
+                        1.2890264
+                    ],
+                    "google_place_id": "ChIJQyDGfnUZ2jERS9Jix4tIy8I"
+                },
+                {
+                    "card_network": "DCI",
+                    "name": "Concorde Hotel Singapore",
+                    "phone": "+65 6733 8855",
+                    "address1": "100 Orchard Road",
+                    "zip_code": "238840",
+                    "city": "Singapore",
+                    "mcc": "hotels",
+                    "website": "http://singapore.concordehotelsresorts.com/",
+                    "privileges_url": "",
+                    "privileges_ids": [],
+                    "point": [
+                        103.8423779,
+                        1.3007391
+                    ],
+                    "google_place_id": "ChIJRe0Wq5cZ2jER5qoN9Q0znq8"
+                },
+                {
+                    "card_network": "DCI",
+                    "name": "Grand Park City Hall",
+                    "phone": "+65 6336 3456",
+                    "address1": "10 Coleman Street",
+                    "zip_code": "179809",
+                    "city": "Singapore",
+                    "mcc": "hotels",
+                    "website": "http://www.parkhotelgroup.com/cityhall/default-en.html",
+                    "privileges_url": "",
+                    "privileges_ids": [],
+                    "point": [
+                        103.8501126,
+                        1.2924547
+                    ],
+                    "google_place_id": "ChIJM9iKM6EZ2jERkwAJJ9fH-y4"
+                },
+                {
+                    "card_network": "DCI",
+                    "name": "Ascott Raffles Place Singapore",
+                    "phone": "+65 6736 9800",
+                    "address1": "2 Finlayson Green",
+                    "zip_code": "49247",
+                    "city": "Singapore",
+                    "mcc": "hotels",
+                    "website": "http://www2.the-ascott.com/en/singapore/singapore/ascott_raffles_place_singapore.html?",
+                    "privileges_url": "",
+                    "privileges_ids": [],
+                    "point": [
+                        103.8516356,
+                        1.2819224
+                    ],
+                    "google_place_id": "ChIJ0Q-YiQ4Z2jERJM0_soHE-Js"
+                },
+                {
+                    "card_network": "DCI",
+                    "name": "Copthorne King's",
+                    "phone": "65 6733 0011",
+                    "address1": "403 Havelock Road",
+                    "zip_code": "169632",
+                    "city": "Singapore",
+                    "mcc": "hotels",
+                    "website": "https://www.millenniumhotels.com/en/singapore/copthorne-kings-hotel/?cid=gplaces-CKS",
+                    "privileges_url": "",
+                    "privileges_ids": [],
+                    "point": [
+                        103.8366159,
+                        1.2882885
+                    ],
+                    "google_place_id": "ChIJhT8kN3YZ2jERxhUO-wk7HA8"
+                }
+            ]
         }
     },
     "posts": [

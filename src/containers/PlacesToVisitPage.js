@@ -5,7 +5,10 @@ class PlacesToVisitPage extends Component{
 
     constructor(props){
         super(props);
-        DiscoverServices.serviceLogin();
+        this.state = {
+            merchants: DiscoverServices.getMerchant()
+        }
+        
     }
 
     render(){
