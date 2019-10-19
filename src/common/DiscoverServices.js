@@ -3,7 +3,7 @@ import axios from 'axios';
 
 class DiscoverServices {
 
-    static getMerchant(city="singapore", filterType="hotels"){
+    static async getMerchant(city="singapore", filterType="hotels"){
         axios.get('http://localhost:8000/', {
             params: {
               city: city,
@@ -11,7 +11,7 @@ class DiscoverServices {
             }
           })
           .then(function (response) {
-            console.log(response);
+            return response.data;
           })
           .catch(function (error) {
             console.log(error);
